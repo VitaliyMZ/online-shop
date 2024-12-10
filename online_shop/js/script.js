@@ -78,7 +78,7 @@ const createItem = (obj) => {
     const a = document.createElement('a');
 
     a.classList.add('item');
-    a.setAttribute('href', './pages/details.html');
+    a.setAttribute('href', `./pages/details.html?id=${obj.id}`);
 
     const title = document.createElement('div');
     title.innerHTML = obj.title;

@@ -258,3 +258,11 @@
         box-shadow: 0 0 0 30px #0000
     }
 }
+
+.d-image{
+    text-align: center;
+}
+
+.d-image img{
+    max-width: 200px;
+}
